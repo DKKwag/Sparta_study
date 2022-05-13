@@ -12,7 +12,6 @@ class middle {
 
 public class Main {
     public static void main(String[] args) {
-        int starN, starM;
 
         middle a =new middle(); //main클래스 안에 a는 middle클래스 인스턴스생성
         System.out.println(a.getmiddle("abcde")); // 클래스안의 getmiddle이라는 메소드를 가져옴
